@@ -1,0 +1,147 @@
+body {
+    display:    block;
+    font-family: Arial, Helvetica, sans-serif; 
+
+}
+
+
+#content {
+    border: thin solid #009;
+    width: 900px;
+    margin: auto;
+}
+
+
+#topPage {
+    position:   static;
+    width:      900px;
+    height:     150px;
+    /*border:     thin solid black;*/
+	
+}
+
+#nav {
+    position:   static;
+    width:      900px;
+    height:     50px;
+    /*border:     thin solid black;*/
+}
+
+#subNav {
+    position:   static;
+    float:      left;
+    width:      200px;
+    height:     500px;
+    /*border:     thin solid black;*/
+}
+
+#page {
+    position:   static;
+    float:      right;
+    width:      676px;
+    height:     auto;
+    padding: 10px;
+    /*border:     thin solid black;*/
+}
+
+#pageFullWidth {
+    position:   static;
+    width:      900px;
+    height:     auto;
+    /*border:     thin solid black;*/
+}
+
+#footer {
+    position:   static;
+    clear:      both;
+    width:      900px;
+    height:     auto;
+    /*border:     thin solid black;*/
+     text-align: center;
+     border-top: thin solid #003;
+
+}
+
+
+br.clear {
+    clear:      both;
+}
+
+/* Login Form Styles */
+
+div.login {
+    margin:     100px auto;
+    padding:    25px;
+    width:      300px;
+    border:     thin solid black;
+}
+
+div.login label {
+    display:    block;
+    float:      left;
+    clear:      left;
+    margin:     4px 0;
+    width:      100px;
+}
+
+div.login input {
+}
+
+button#login {
+    display:    block;
+    clear:      both;
+    float:      right;
+    margin:     25px 25px 0 0;
+}
+
+div#userArea {
+	display: block;
+    float:      right;
+    margin:     5px 5px 0 0;
+}
+
+div#logo {
+	float: left;
+}
+
+
+/*nav style*/
+
+#searchbar input {
+    height: 25px;
+    padding-left: 2px;
+    border: 1px solid #999;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+#searchbar {
+    display: block;
+    margin: 10px 0 0 50px;
+}
+
+#searchbar label {
+    font-weight: bold;
+}
+
+#searchResults {
+    display: block;
+    position: relative;
+    left: 157px;
+    background-color: #fff;
+    border: thin solid #a6a6a4;
+    width: 628px;
+    padding-left: 5px;
+    line-height: 25px;
+}
+#searchResults a {
+    text-decoration: none;
+    color: #515151;
+}
+
+#searchResults:empty {
+   display: none;
+}
